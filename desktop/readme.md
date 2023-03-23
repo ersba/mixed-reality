@@ -22,7 +22,7 @@ in all three subdirectories *cg_math* and *cg_ui*.
 
 ## Build
 
-Run in the *pcg*-directory:
+Run in the *desktop*-directory:
 
     gradle build
 
