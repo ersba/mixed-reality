@@ -1,5 +1,5 @@
 [submodule "cg_math"]
 	path = cg_math
-	url = ../cgmath.git
+	url = ../../Philipp.Jenke/cgmath.git
 [submodule "cg_ui"]
 	path = cg_ui
