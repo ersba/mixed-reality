@@ -10,9 +10,7 @@ build-job:
   image: openjdk:14-jdk-slim
   tags:
     - dind
-
   script:
-    - cd desktop
     - chmod +x ./gradlew
     - ./gradlew build
 
@@ -21,9 +19,7 @@ unit-testing-job:
   image: openjdk:14-jdk-slim
   tags:
     - dind
-
   script:
-    - cd desktop
     - chmod +x ./gradlew
     - ./gradlew test
   artifacts:
