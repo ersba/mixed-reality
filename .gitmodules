@@ -1,6 +1,6 @@
-[submodule "desktop/cgmath"]
+[submodule "cgmath"]
 	path = cgmath
 	url = ../cgmath.git
-[submodule "desktop/cgui"]
+[submodule "cgui"]
 	path = cgui
 	url = ../cgui.git
