@@ -2,4 +2,4 @@
 	path = cg_math
 	url = ../../Philipp.Jenke/cgmath.git
 [submodule "cg_ui"]
-	path = ../../Philipp.Jenke/cgui.git
+	path = ../../Philipp.Jenke/cg_ui.git
