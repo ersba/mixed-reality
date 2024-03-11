@@ -3,4 +3,3 @@
 	url = ../cgmath.git
 [submodule "cg_ui"]
 	path = cg_ui
-	url = ../cgui.git
