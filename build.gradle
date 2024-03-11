@@ -8,18 +8,18 @@ repositories {
 sourceSets {
     main {
         java {
-            srcDirs 'cg_math/src/main/java'
-            srcDirs 'cg_ui/src/main/java'
+            srcDirs 'cgmath/src/main/java'
+            srcDirs 'cgui/src/main/java'
         }
         resources {
-            srcDir 'cg_ui/src/main/resources'
+            srcDir 'cgui/src/main/resources'
         }
     }
 
     test {
         java {
-            srcDirs 'cg_math/src/test/java'
-            srcDirs 'cg_ui/src/test/java'
+            srcDirs 'cgmath/src/test/java'
+            srcDirs 'cgui/src/test/java'
         }
     }
 }
