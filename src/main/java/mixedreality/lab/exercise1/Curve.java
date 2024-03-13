@@ -3,7 +3,7 @@
  * <p>
  * Prof. Dr. Philipp Jenke, Hochschule für Angewandte Wissenschaften Hamburg.
  */
-package mixedreality.base.math;
+package mixedreality.lab.exercise1;
 
 import com.jme3.math.Vector2f;
 
@@ -14,7 +14,6 @@ import java.util.List;
  * A curve with control points.
  */
 public class Curve {
-
     /**
      * Control points
      */
@@ -79,5 +78,15 @@ public class Curve {
 
     public void setBasisFunction(BasisFunction basisFunction) {
         this.basisFunction = basisFunction;
+    }
+
+    public BasisFunction.CurveType getType() {
+        return basisFunction.getCurveType();
+    }
+
+    public void addControlPoints(Vector2f... controlPoints) {
+        for (Vector2f p : controlPoints) {
+            this.controlPoints.add(p);
+        }
     }
 }

@@ -4,11 +4,11 @@
  * Prof. Dr. Philipp Jenke, Hochschule für Angewandte Wissenschaften Hamburg.
  */
 
-package mixedreality.lab.exercise7;
+package mixedreality.lab.exercise2;
 
 import com.jme3.math.Vector3f;
 import mixedreality.base.mesh.TriangleMesh;
-import mixedreality.lab.exercise7.functions.ImplicitFunction;
+import mixedreality.lab.exercise2.functions.ImplicitFunction;
 
 import java.util.Optional;
 

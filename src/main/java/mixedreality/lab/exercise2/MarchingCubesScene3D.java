@@ -4,7 +4,7 @@
  * Prof. Dr. Philipp Jenke, Hochschule für Angewandte Wissenschaften Hamburg.
  */
 
-package mixedreality.lab.exercise7;
+package mixedreality.lab.exercise2;
 
 import com.jme3.asset.AssetManager;
 import com.jme3.light.AmbientLight;
@@ -17,10 +17,10 @@ import com.jme3.scene.Geometry;
 import com.jme3.scene.Node;
 import mixedreality.base.mesh.TriangleMesh;
 import mixedreality.base.mesh.TriangleMeshTools;
-import mixedreality.lab.exercise7.functions.GourSat;
-import mixedreality.lab.exercise7.functions.ImplicitFunction;
-import mixedreality.lab.exercise7.functions.Sphere;
-import mixedreality.lab.exercise7.functions.Torus;
+import mixedreality.lab.exercise2.functions.GourSat;
+import mixedreality.lab.exercise2.functions.ImplicitFunction;
+import mixedreality.lab.exercise2.functions.Sphere;
+import mixedreality.lab.exercise2.functions.Torus;
 import ui.AbstractCameraController;
 import ui.Scene3D;
 

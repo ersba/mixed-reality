@@ -4,11 +4,10 @@
  * Prof. Dr. Philipp Jenke, Hochschule für Angewandte Wissenschaften Hamburg.
  */
 
-package mixedreality.lab.exercise7.functions;
+package mixedreality.lab.exercise2.functions;
 
 import com.jme3.math.Vector3f;
 import math.MathF;
-import mixedreality.lab.exercise7.functions.ImplicitFunction;
 
 /**
  * Implementation of the 3D GourSat function (https://de.wikipedia.org/wiki/%C3%89douard_Goursat).

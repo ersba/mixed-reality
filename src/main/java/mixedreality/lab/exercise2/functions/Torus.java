@@ -4,7 +4,7 @@
  * Prof. Dr. Philipp Jenke, Hochschule für Angewandte Wissenschaften Hamburg.
  */
 
-package mixedreality.lab.exercise7.functions;
+package mixedreality.lab.exercise2.functions;
 
 import com.jme3.math.Vector3f;
 import math.MathF;

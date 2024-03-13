@@ -4,12 +4,15 @@
  * Prof. Dr. Philipp Jenke, Hochschule für Angewandte Wissenschaften Hamburg.
  */
 
-package mixedreality.base.math;
+package mixedreality.lab.exercise1;
 
 /**
  * Shared interface for all basis functions.
  */
 public interface BasisFunction {
+
+    public enum CurveType {HERMITE, BEZIER, UNDEFINED}
+
     /**
      * Evaluate basis function.
      */
@@ -19,4 +22,6 @@ public interface BasisFunction {
      * Evaluate basis function derivative.
      */
     float evalDerivative(float t, int i, int degree);
+
+    CurveType getCurveType();
 }
